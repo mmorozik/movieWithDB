@@ -1,0 +1,8 @@
+.wrap {
+  margin: 0 auto;
+  width: 1010px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 44px;
+}

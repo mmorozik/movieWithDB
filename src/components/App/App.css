@@ -1,0 +1,10 @@
+.error-alert {
+  position: absolute;
+  right: 50px;
+  bottom: 150px;
+}
+
+.wrapper {
+  text-align: center;
+  padding-top: 30px;
+}

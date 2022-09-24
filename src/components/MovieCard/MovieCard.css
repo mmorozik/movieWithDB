@@ -1,0 +1,79 @@
+.card {
+  margin-top: 20px;
+  width: 454px;
+  height: 270px;
+  display: flex;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.card__img {
+  margin-right: 20px;
+}
+
+.card__title,
+.card__date,
+.card__description,
+.card__genre {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card__title {
+  max-width: 200px;
+  margin-bottom: 7px;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.card__date {
+  font-size: 12px;
+  line-height: 22px;
+  color: #827E7E;
+}
+
+.card__genre {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card__genre div {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.65);
+  border: 1px solid #D9D9D9;
+  margin-right: 8px;
+  padding: 2px 5px;
+  margin-bottom: 5px;
+}
+
+.card__description p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.card__rate {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+}
+
+.card__vote {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  top: 0;
+  right: 9px;
+}
+
+.card__vote span {
+  margin: auto;
+}
